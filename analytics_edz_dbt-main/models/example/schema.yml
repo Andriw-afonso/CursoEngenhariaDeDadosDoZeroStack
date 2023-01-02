@@ -1,0 +1,42 @@
+
+version: 2
+
+models:
+  - name: my_first_dbt_model
+    description: "A starter dbt model"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: my_second_dbt_model
+    description: "A starter dbt model"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+  - name: tb_10_compradores
+    description: "Retorna os top 10 compradores da base de dados"
+    columns:
+      - name: vendas_totais
+        description: "Vendas totais por comprador"
+        tests:
+          - nao_negativo
+          - not_null
+  - name: vw_sales
+    description: "View com informações de vendas"
+    columns:
+    - name: valor_pago
+      description: "Valor pago na compra"
+      tests:
+        - nao_negativo
+        - not_null
+    - name: comissao
+      description: "Comissao de venda"
+      tests:
+        - nao_negativo
+        - not_null
