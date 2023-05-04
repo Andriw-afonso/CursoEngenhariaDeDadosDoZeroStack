@@ -1,11 +1,37 @@
 Engenharia de dados:
-É a prática de projetar e construir sistemas e processos para coletar, armazenar e analisar dados em escala.
+    É a prática de projetar e construir sistemas e processos para coletar, armazenar e analisar dados em escala.
 
 Responsabilidades do engenheiro de dados:
-Coleta
-Transformação
-Processamento
-Entrega e Deploy
+    Coleta
+    Transformação
+    Processamento
+    Entrega e Deploy
 
 Big Data:
-Variedade, Volume e Velocidade.
+    Variedade, Volume e Velocidade.
+
+Data Lakes:
+    Repositório único para armazenar todos os formatos de dados.
+
+Soluções de data lakes:
+    Clould:
+        AWS: AWS Lake Formation
+        Azure: Azure Data Lake
+        GCP: Google Clould Storage
+    Open Source:
+        MINIO
+        LakeFS
+        Hadoop
+
+Boas práticas em Data Lakes:
+    Definir cotas.
+    Definir periodicidade dos dados.
+    Cuidar da ingestão dos dados.
+    Utilizar metadados.
+    Criar zonas de separação dos dados.
+
+DW:
+    Ambiente de dados transformados(Banco de dados, por exemplo). 
+    Normalmente é uma solução cara.
+    Somente dados analíticos.
+    O schema é definido no momento da leitura.
