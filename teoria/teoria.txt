@@ -1,0 +1,11 @@
+Engenharia de dados:
+É a prática de projetar e construir sistemas e processos para coletar, armazenar e analisar dados em escala.
+
+Responsabilidades do engenheiro de dados:
+Coleta
+Transformação
+Processamento
+Entrega e Deploy
+
+Big Data:
+Variedade, Volume e Velocidade.
