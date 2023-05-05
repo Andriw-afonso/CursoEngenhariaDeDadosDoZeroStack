@@ -35,3 +35,25 @@ DW:
     Normalmente é uma solução cara.
     Somente dados analíticos.
     O schema é definido no momento da leitura.
+
+Soluções de data pipeline:
+    Apache Airflow
+    Azure Data Factory
+    AWS Glue ETL
+    Google Cloud composer
+
+Responsabilidade no gerenciamento de Pipelines de dados:
+    Definir ambiente e arquitetura
+        On-Primisse , On-Cloud
+    Especificar Tecnologias para armazenamento.
+        Data lakes, Data Warehouse.
+    Definir formas de Processamento
+        Streaming , clusters
+    Definir e implementar padrões e segurança e intregração com outros sistemas.
+    Monitoramento
+
+API's do Spark:
+    MLIB : Machine Learning. 
+    Streaming: Real-time analytics.
+    SQL: Interactive Queries.
+    Graphx: Graph Processing.
